@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>嘿嘿嘿正确姿势-两性亲密知识科普与健康指南</title>
+<meta name="description" content="嘿嘿嘿正确姿势是一个面向成年人的两性亲密知识科普站，系统整理亲密关系中的健康常识、安全注意事项、沟通方法与常见疑问解答，帮助读者以科学、尊重、负责的态度理解亲密关系。">
+<meta name="keywords" content="嘿嘿嘿正确姿势,两性健康,亲密关系,健康科普,安全知识,沟通技巧,常见问题">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#2b2230;
+    --ink-soft:#5d5265;
+    --line:#e8e1ea;
+    --bg:#fbf8fa;
+    --card:#ffffff;
+    --plum:#8c3f6b;
+    --plum-deep:#6a2a4f;
+    --rose:#c96a92;
+    --sand:#f4ecf1;
+    --radius:16px;
+    --shadow:0 10px 30px rgba(84,40,66,.08);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.75;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;}
+  h1,h2,h3{line-height:1.35;margin:0;}
+  p{margin:0 0 1em;}
+  .wrap{
+    width:min(1160px,92vw);
+    margin:0 auto;
+  }
+
+  /* ---------- 顶部提示条 ---------- */
+  .age-bar{
+    background:var(--plum-deep);
+    color:#f7e9f0;
+    font-size:13px;
+    letter-spacing:.02em;
+  }
+  .age-bar .wrap{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 18px;
+    align-items:center;
+    justify-content:space-between;
+    padding:8px 0;
+  }
+  .age-bar strong{color:#fff;font-weight:600;}
+
+  /* ---------- 页眉 ---------- */
+  header.site{
+    background:rgba(251,248,250,.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:30;
+  }
+  .head-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding:14px 0;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .brand-mark{
+    width:42px;height:42px;
+    border-radius:13px;
+    background:linear-gradient(140deg,var(--rose),var(--plum-deep));
+    color:#fff;
+    display:grid;
+    place-items:center;
+    font-size:19px;
+    font-weight:700;
+    letter-spacing:-1px;
+    flex:0 0 auto;
+  }
+  .brand-text b{
+    display:block;
+    font-size:18px;
+    letter-spacing:.01em;
+  }
+  .brand-text span{
+    display:block;
+    font-size:12px;
+    color:var(--ink-soft);
+    letter-spacing:.08em;
+  }
+  nav.main ul{
+    display:flex;
+    gap:24px;
+    list-style:none;
+    margin:0;padding:0;
+    font-size:15px;
+    color:var(--ink-soft);
+  }
+  nav.main a{
+    padding:6px 0;
+    border-bottom:2px solid transparent;
+    transition:.2s;
+  }
+  nav.main a:hover{
+    color:var(--plum);
+    border-bottom-color:var(--rose);
+  }
+  .head-cta{
+    background:var(--plum);
+    color:#fff;
+    padding:9px 18px;
+    border-radius:999px;
+    font-size:14px;
+    white-space:nowrap;
+    transition:.2s;
+  }
+  .head-cta:hover{background:var(--plum-deep);}
+  .nav-toggle{
+    display:none;
+    background:none;border:1px solid var(--line);
+    border-radius:10px;padding:6px 11px;
+    font-size:18px;color:var(--plum);cursor:pointer;
+  }
+
+  /* ---------- 首屏 ---------- */
+  .hero{
+    padding:56px 0 46px;
+    background:
+      radial-gradient(900px 340px at 88% -10%,rgba(201,106,146,.20),transparent 70%),
+      radial-gradient(700px 300px at 4% 110%,rgba(140,63,107,.14),transparent 70%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.35fr .95fr;
+    gap:46px;
+    align-items:start;
+  }
+  .hero-tag{
+    display:inline-block;
+    font-size:13px;
+    letter-spacing:.14em;
+    color:var(--plum);
+    background:#fff;
+    border:1px solid var(--line);
+    padding:5px 14px;
+    border-radius:999px;
+    margin-bottom:20px;
+  }
+  .hero h1{
+    font-size:clamp(28px,3.6vw,42px);
+    letter-spacing:-.01em;
+    margin-bottom:18px;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--plum);
+    border-bottom:3px solid rgba(201,106,146,.35);
+  }
+  .hero-lead{
+    font-size:17px;
+    color:var(--ink-soft);
+    max-width:34em;
+  }
+  .hero-points{
+    list-style:none;
+    margin:22px 0 0;padding:0;
+    display:grid;
+    gap:10px;
+  }
+  .hero-points li{
+    display:flex;
+    gap:10px;
+    font-size:15px;
+    color:var(--ink);
+  }
+  .hero-points li::before{
+    content:"✓";
+    color:#fff;
+    background:var(--rose);
+    width:20px;height:20px;
+    border-radius:50%;
+    display:grid;place-items:center;
+    font-size:12px;
+    flex:0 0 auto;
+    margin-top:3px;
+  }
+  .hero-side{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 26px 22px;
+    box-shadow:var(--shadow);
+  }
+  .hero-side h2{
+    font-size:17px;
+    margin-bottom:14px;
+  }
+  .hero-side ol{
+    margin:0;padding-left:20px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .hero-side ol li{margin-bottom:10px;}
+  .hero-side ol li b{color:var(--ink);}
+  .side-note{
+    margin-top:18px;
+    padding-top:16px;
+    border-top:1px dashed var(--line);
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- 通用区块 ---------- */
+  section.block{
+    padding:56px 0;
+  }
+  section.block.alt{
+    background:#fff;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .block-head{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:28px;
+  }
+  .block-head h2{
+    font-size:clamp(21px,2.4vw,27px);
+  }
+  .block-head p{
+    margin:6px 0 0;
+    color:var(--ink-soft);
+    font-size:15px;
+    max-width:46em;
+  }
+  .block-head .kicker{
+    font-size:12.5px;
+    letter-spacing:.16em;
+    color:var(--rose);
+    text-transform:uppercase;
+    display:block;
+    margin-bottom:8px;
+  }
+
+  /* ---------- 姿势科普卡片 ---------- */
+  .pose-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .pose-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px 22px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:.22s;
+  }
+  .pose-card:hover{
+    transform:translateY(-3px);
+    box-shadow:var(--shadow);
+    border-color:#ddc9d6;
+  }
+  .pose-card .num{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.12em;
+    color:var(--rose);
+  }
+  .pose-card h3{
+    font-size:17px;
+  }
+  .pose-card p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    margin:0;
+  }
+  .pose-card .tagline{
+    margin-top:auto;
+    font-size:13px;
+    color:var(--plum);
+    background:var(--sand);
+    border-radius:8px;
+    padding:8px 11px;
+  }
+
+  /* ---------- 安全与沟通 双栏 ---------- */
+  .two-col{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:26px;
+  }
+  .panel{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:28px 26px;
+  }
+  .panel h3{
+    font-size:19px;
+    margin-bottom:8px;
+  }
+  .panel .sub{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin-bottom:16px;
+  }
+  .check-list{
+    list-style:none;
+    margin:0;padding:0;
+    display:grid;
+    gap:14px;
+  }
+  .check-list li{
+    display:grid;
+    grid-template-columns:26px 1fr;
+    gap:12px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .check-list li b{
+    display:block;
+    color:var(--ink);
+    font-size:15px;
+    margin-bottom:2px;
+  }
+  .check-list .ico{
+    width:26px;height:26px;
+    border-radius:8px;
+    background:var(--sand);
+    color:var(--plum);
+    display:grid;place-items:center;
+    font-size:14px;
+    font-weight:700;
+  }
+
+  /* ---------- 步骤条 ---------- */
+  .steps{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    counter-reset:step;
+  }
+  .step{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:24px 20px;
+    position:relative;
+  }
+  .step::before{
+    counter-increment:step;
+    content:counter(step);
+    position:absolute;
+    top:-14px;left:20px;
+    width:30px;height:30px;
+    border-radius:50%;
+    background:var(--plum);
+    color:#fff;
+    display:grid;place-items:center;
+    font-size:14px;
+    font-weight:700;
+  }
+  .step h3{
+    font-size:16px;
+    margin:10px 0 8px;
+  }
+  .step p{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0;
+  }
+
+  /* ---------- 误区列表 ---------- */
+  .myth-list{
+    display:grid;
+    gap:14px;
+  }
+  .myth{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0;
+    border:1px solid var(--line);
+    border-radius:14px;
+    overflow:hidden;
+    background:var(--card);
+  }
+  .myth > div{
+    padding:18px 22px;
+    font-size:14.5px;
+  }
+  .myth .wrong{
+    background:#fdf3f6;
+    color:#8a3d5a;
+    border-right:1px solid var(--line);
+  }
+  .myth .wrong b,
+  .myth .right b{
+    display:block;
+    font-size:12.5px;
+    letter-spacing:.1em;
+    margin-bottom:6px;
+    text-transform:uppercase;
+  }
+  .myth .right{color:var(--ink-soft);}
+  .myth .right b{color:var(--plum);}
+
+  /* ---------- 常见问题 ---------- */
+  .faq{
+    display:grid;
+    gap:12px;
+  }
+  details.qa{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:0;
+    overflow:hidden;
+  }
+  details.qa[open]{
+    border-color:#ddc9d6;
+    box-shadow:var(--shadow);
+  }
+  details.qa summary{
+    cursor:pointer;
+    list-style:none;
+    padding:18px 24px;
+    font-size:16px;
+    font-weight:600;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+  }
+  details.qa summary::-webkit-details-marker{display:none;}
+  details.qa summary::after{
+    content:"+";
+    color:var(--rose);
+    font-size:20px;
+    line-height:1;
+    flex:0 0 auto;
+  }
+  details.qa[open] summary::after{content:"–";}
+  details.qa .answer{
+    padding:0 24px 20px;
+    font-size:14.8px;
+    color:var(--ink-soft);
+  }
+  details.qa .answer p:last-child{margin-bottom:0;}
+
+  /* ---------- 侧栏 / 阅读提示 ---------- */
+  .guide-grid{
+    display:grid;
+    grid-template-columns:1.5fr 1fr;
+    gap:26px;
+    align-items:start;
+  }
+  .article-body h3{
+    font-size:18px;
+    margin:26px 0 10px;
+  }
+  .article-body h3:first-child{margin-top:0;}
+  .article-body p{
+    font-size:15.2px;
+    color:var(--ink-soft);
+  }
+  .aside-card{
+    background:linear-gradient(160deg,#fff,var(--sand));
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 24px;
+  }
+  .aside-card h3{
+    font-size:17px;
+    margin-bottom:12px;
+  }
+  .aside-card ul{
+    margin:0;padding-left:18px;
+    font-size:14.3px;
+    color:var(--ink-soft);
+    display:grid;
+    gap:9px;
+  }
+  .aside-card .disclaimer{
+    margin-top:18px;
+    padding-top:16px;
+    border-top:1px dashed #ddc9d6;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- 页脚 ---------- */
+  footer.site{
+    background:#2b1f28;
+    color:#cbb9c5;
+    padding:48px 0 26px;
+    margin-top:10px;
+  }
+  .foot-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr 1fr;
+    gap:30px;
+  }
+  footer.site h4{
+    color:#fff;
+    font-size:15px;
+    margin:0 0 14px;
+  }
+  footer.site p{
+    font-size:13.6px;
+    color:#b7a4b0;
+  }
+  footer.site ul{
+    list-style:none;
+    margin:0;padding:0;
+    display:grid;
+    gap:9px;
+    font-size:13.8px;
+  }
+  footer.site a:hover{color:#fff;}
+  .foot-bottom{
+    margin-top:34px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.12);
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 20px;
+    justify-content:space-between;
+    font-size:12.8px;
+    color:#9d8a97;
+  }
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:32px;}
+    .pose-grid{grid-template-columns:repeat(2,1fr);}
+    .steps{grid-template-columns:repeat(2,1fr);}
+    .guide-grid{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:760px){
+    nav.main{
+      display:none;
+      position:absolute;
+      left:0;right:0;top:100%;
+      background:#fff;
+      border-bottom:1px solid var(--line);
+      padding:14px 4vw 20px;
+      box-shadow:0 16px 26px rgba(84,40,66,.10);
+    }
+    nav.main.open{display:block;}
+    nav.main ul{
+      flex-direction:column;
+      gap:14px;
+      font-size:16px;
+    }
+    header.site{position:relative;}
+    .nav-toggle{display:block;}
+    .head-cta{display:none;}
+    .two-col{grid-template-columns:1fr;}
+    .myth{grid-template-columns:1fr;}
+    .myth .wrong{border-right:none;border-bottom:1px solid var(--line);}
+    .pose-grid{grid-template-columns:1fr;}
+    .steps{grid-template-columns:1fr;}
+    section.block{padding:42px 0;}
+    .hero{padding:40px 0 34px;}
+  }
+  @media (max-width:480px){
+    .foot-grid{grid-template-columns:1fr;}
+    .panel{padding:22px 18px;}
+    .hero-side{padding:22px 18px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="age-bar">
+  <div class="wrap">
+    <span>本站内容面向 <strong>18 周岁及以上成年人</strong>，以健康科普与关系沟通为目的</span>
+    <span>不提供医疗诊断，如有健康困扰请咨询专业医生</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">嘿</span>
+      <span class="brand-text">
+        <b>嘿嘿嘿正确姿势</b>
+        <span>亲密关系健康科普</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="展开导航" onclick="document.getElementById('mainnav').classList.toggle('open')">☰</button>
+    <nav class="main" id="mainnav" aria-label="主导航">
+      <ul>
+        <li><a href="#basics">基础常识</a></li>
+        <li><a href="#safety">安全与边界</a></li>
+        <li><a href="#steps">准备流程</a></li>
+        <li><a href="#myths">常见误区</a></li>
+        <li><a href="#faq">疑问解答</a></li>
+      </ul>
+    </nav>
+    <a class="head-cta" href="#faq">先看常见问题</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="hero-tag">健康科普 · 理性阅读</span>
+        <h1>所谓“<em>嘿嘿嘿正确姿势</em>”，本质是安全、尊重与充分沟通</h1>
+        <p class="hero-lead">
+          很多人在搜索这个词时，真正想弄清楚的并不是某个固定动作，而是：怎样做才安全、怎样让双方都舒服、哪些做法需要避开、遇到身体不适该怎么办。本站围绕这些实际问题，把亲密关系中可公开讨论的健康常识、边界意识和沟通方法整理清楚，帮助读者建立理性、负责的认知。
+        </p>
+        <ul class="hero-points">
+          <li>先理解身体与心理的基本常识，再谈具体方式</li>
+          <li>把“双方自愿、随时可停止”放在所有讨论之前</li>
+          <li>关注卫生、防护与身体信号，而不是追求所谓标准答案</li>
+          <li>遇到持续不适、疼痛或情绪困扰，及时寻求专业帮助</li>
+        </ul>
+      </div>
+      <aside class="hero-side">
+        <h2>阅读前请先记住四点</h2>
+        <ol>
+          <li><b>自愿</b>：任何一方在任何时刻都可以拒绝或中止，不需要理由。</li>
+          <li><b>沟通</b>：事前说明期待，过程中确认感受，事后交流体验。</li>
+          <li><b>防护</b>：安全措施既关乎避孕，也关乎性传播疾病的预防。</li>
+          <li><b>就医</b>：疼痛、出血、异常分泌物等情况应看医生，而不是上网自查。</li>
+        </ol>
+        <p class="side-note">
+          本文属于面向成年人的健康科普内容，不涉及具体露骨描写，也不构成医学建议。个体差异很大，任何通用说法都不能替代医生的当面评估。
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 基础常识 -->
+  <section class="block" id="basics">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <span class="kicker">Basics</span>
+          <h2>先建立基础常识，再谈具体方式</h2>
+          <p>亲密关系中的舒适度，更多取决于了解程度和沟通质量，而不是某个被反复传播的“标准动作”。以下四个方向是大多数疑问的根源。</p>
+        </div>
+      </div>
+      <div class="pose-grid">
+        <article class="pose-card">
+          <span class="num">01 / 身体认知</span>
+          <h3>了解彼此的身体差异</h3>
+          <p>每个人的敏感程度、节奏偏好和疲劳阈值都不同。与其对照网上的描述，不如通过交流了解对方真实的感受与不适点。</p>
+          <span class="tagline">重点：个体差异远大于所谓通用规律</span>
+        </article>
+        <article class="pose-card">
+          <span class="num">02 / 节奏</span>
+          <h3>节奏比强度更重要</h3>
+          <p>过快、过强往往带来不适甚至损伤。循序渐进、随时询问感受，是减少疼痛和紧张的有效方式。</p>
+          <span class="tagline">重点：慢一点、问一句，体验通常更好</span>
+        </article>
+        <article class="pose-card">
+          <span class="num">03 / 情绪</span>
+          <h3>心理状态直接影响体验</h3>
+          <p>压力、疲惫、焦虑或被催促的感觉，都会让身体处于紧绷状态。放松和信任是舒适体验的前提条件。</p>
+          <span class="tagline">重点：不想的时候，可以不做</span>
+        </article>
+        <article class="pose-card">
+          <span class="num">04 / 卫生</span>
+          <h3>清洁与防护是基础项</h3>
+          <p>事前事后的清洁、合适的防护措施，能显著降低感染风险。这属于基本健康习惯，而不是“扫兴”的事。</p>
+          <span class="tagline">重点：防护同时关乎避孕与防病</span>
+        </article>
+        <article class="pose-card">
+          <span class="num">05 / 环境</span>
+          <h3>环境与时机影响安全感</h3>
+          <p>私密、安静、不受打扰的环境有助于放松。匆忙、担心被打断的状态容易造成紧张和不适。</p>
+          <span class="tagline">重点：安全感不是小事</span>
+        </article>
+        <article class="pose-card">
+          <span class="num">06 / 事后</span>
+          <h3>结束后的交流同样重要</h3>
+          <p>事后简单聊聊感受、有没有不舒服，既能增进理解，也能及早发现需要处理的身体问题。</p>
+          <span class="tagline">重点：反馈是下一次更好的依据</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 安全与沟通 -->
+  <section class="block alt" id="safety">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <span class="kicker">Safety &amp; Consent</span>
+          <h2>安全边界与沟通方法</h2>
+          <p>在所有关于“姿势”的讨论之前，安全和同意是前置条件。这两件事做不好，其他技巧都没有意义。</p>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="panel">
+          <h3>安全层面的基本清单</h3>
+          <p class="sub">以下内容属于通用健康常识，不针对任何具体人群或场景。</p>
+          <ul class="check-list">
+            <li>
+              <span class="ico">1</span>
+              <span><b>双方明确自愿</b>沉默、犹豫、被劝说都不等于同意。同意可以在任何时刻撤回。</span>
+            </li>
+            <li>
+              <span class="ico">2</span>
+              <span><b>做好防护措施</b>正确使用安全套可同时降低意外怀孕和多种性传播感染的风险，使用前请阅读说明。</span>
+            </li>
+            <li>
+              <span class="ico">3</span>
+              <span><b>注意清洁卫生</b>事前事后清洁、勤换内衣、避免共用可能造成交叉感染的私人物品。</span>
+            </li>
+            <li>
+              <span class="ico">4</span>
+              <span><b>避开疼痛信号</b>出现明显疼痛、撕裂感或出血应立即停止，必要时就医，不要忍耐硬撑。</span>
+            </li>
+            <li>
+              <span class="ico">5</span>
+              <span><b>警惕高危行为</b>避免酒后或意识不清状态下的行为，避免多个不安全性伴侣带来的健康风险。</span>
+            </li>
+            <li>
+              <span class="ico">6</span>
+              <span><b>定期健康检查</b>有性生活的人群可根据医生建议进行常规妇科或泌尿科检查。</span>
+            </li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>把话说出口的沟通技巧</h3>
+          <p class="sub">很多人不是不愿意沟通，而是不知道从哪一句开始。</p>
+          <ul class="check-list">
+            <li>
+              <span class="ico">A</span>
+              <span><b>用“我”开头</b>例如“我有点紧张”“我希望慢一点”，比指责式表达更容易被接受。</span>
+            </li>
+            <li>
+              <span class="ico">B</span>
+              <span><b>事前约定信号</b>提前商量一个表示“暂停”的词或手势，需要时直接使用，不必解释。</span>
+            </li>
+            <li>
+              <span class="ico">C</span>
+              <span><b>过程中保持确认</b>一句“这样可以吗”不会破坏气氛，反而能减少误判。</span>
+            </li>
+            <li>
+              <span class="ico">D</span>
+              <span><b>接受“不”这个答案</b>拒绝不代表否定关系，尊重拒绝是亲密关系的基本素养。</span>
+            </li>
+            <li>
+              <span class="ico">E</span>
+              <span><b>事后温和反馈</b>把不舒服的地方说清楚，也把喜欢的部分说出来，双向反馈才有意义。</span>
+            </li>
+            <li>
+              <span class="ico">F</span>
+              <span><b>涉及健康问题找医生</b>伴侣之间可以互相支持，但诊断和治疗应由专业人员完成。</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 准备流程 -->
+  <section class="block" id="steps">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <span class="kicker">Process</span>
+          <h2>一个更稳妥的准备流程</h2>
+          <p>与其记住某个动作，不如记住一套可以反复使用的流程。它适用于大多数成年人之间的亲密场景。</p>
+        </div>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <h3>确认意愿</h3>
+          <p>在开始之前确认双方都愿意，且没有受到酒精、药物或情绪压力的影响。</p>
+        </article>
+        <article class="step">
+          <h3>做好准备</h3>
+          <p>清洁身体、准备好防护用品、选择私密不受打扰的环境，把手机静音。</p>
+        </article>
+        <article class="step">
+          <h3>保持交流</h3>
+          <p>过程中关注对方的呼吸、表情和反馈，随时调整节奏，不勉强推进。</p>
+        </article>
+        <article class="step">
+          <h3>事后处理</h3>
+          <p>清洁、补水、休息，交流感受；如有不适持续存在，及时就医而不是拖延。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见误区 -->
+  <section class="block alt" id="myths">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <span class="kicker">Myths</span>
+          <h2>流传很广但并不可靠的说法</h2>
+          <p>网络上关于亲密关系的说法真假混杂，以下几条是最容易造成困扰的典型误区。</p>
+        </div>
+      </div>
+      <div class="myth-list">
+        <div class="myth">
+          <div class="wrong">
+            <b>常见说法</b>
+            存在一套人人适用的“标准姿势”，照着做就能获得理想体验。
+          </div>
+          <div class="right">
+            <b>更接近事实</b>
+            身体条件、健康状况、情绪和关系质量都会影响体验，个体差异远大于通用规律。适合自己的方式需要在沟通中慢慢摸索。
+          </div>
+        </div>
+        <div class="myth">
+          <div class="wrong">
+            <b>常见说法</b>
+            第一次一定会疼，忍一忍就过去了。
+          </div>
+          <div class="right">
+            <b>更接近事实</b>
+            紧张、缺乏准备或身体原因都可能导致疼痛。明显疼痛不是必须承受的过程，应放慢节奏或暂停，持续疼痛建议就医评估。
+          </div>
+        </div>
+        <div class="myth">
+          <div class="wrong">
+            <b>常见说法</b>
+            只要双方是伴侣，就不需要再确认同意。
+          </div>
+          <div class="right">
+            <b>更接近事实</b>
+            亲密关系并不等于永久授权。任何一次行为都需要当下的自愿，任何一方都可以随时中止。
+          </div>
+        </div>
+        <div class="myth">
+          <div class="wrong">
+            <b>常见说法</b>
+            安全措施会影响体验，所以能省就省。
+          </div>
+          <div class="right">
+            <b>更接近事实</b>
+            防护措施同时关系到避孕和预防性传播感染。是否使用、如何使用，应结合双方健康状况并咨询专业医生意见。
+          </div>
+        </div>
+        <div class="myth">
+          <div class="wrong">
+            <b>常见说法</b>
+            时间越长、强度越大，就代表关系越好。
+          </div>
+          <div class="right">
+            <b>更接近事实</b>
+            时长和强度并不衡量关系质量。舒适、放松、双方都感到被尊重，才是更值得关注的指标。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度阅读 + 侧栏 -->
+  <section class="block" id="guide">
+    <div class="wrap guide-grid">
+      <article class="article-body">
+        <h3>为什么“正确”这个词容易被误解</h3>
+        <p>
+          搜索“嘿嘿嘿正确姿势”的人，往往带着一种期待：希望找到一个明确答案，照着做就不会出错。但亲密关系不是标准化的操作流程。它同时涉及身体状态、心理感受、关系信任和现实条件，任何一个环节变化，合适的做法都会随之改变。把“正确”理解成“安全、自愿、舒适”，比理解成某个固定动作更贴近现实。
+        </p>
+        <h3>身体信号需要被认真对待</h3>
+        <p>
+          身体在不适时通常会给出信号，例如紧绷、疼痛、麻木或明显抗拒。这些信号不是需要克服的障碍，而是需要回应的提示。长期忽视疼痛可能造成损伤，也可能让一方对亲密行为产生持续抵触。遇到反复出现的不适，正确的做法是暂停并寻求医生帮助，而不是继续尝试不同方式。
+        </p>
+        <h3>沟通是可以练习的能力</h3>
+        <p>
+          很多人觉得谈这些话题尴尬，于是选择沉默，靠猜测判断对方感受。但猜测的准确率并不高。可以从简单的表达开始：告诉对方自己紧张、希望慢一点、某个动作不舒服。把沟通变成日常习惯之后，它会自然融入关系，而不是每次都需要鼓起勇气。
+        </p>
+        <h3>信息获取渠道同样重要</h3>
+        <p>
+          网络内容质量参差不齐，部分说法带有夸大或误导成分。相对可靠的信息来源包括正规医院与公共卫生机构发布的科普材料、有执业资质的医生撰写的科普文章，以及学校或社区提供的健康教育资源。遇到涉及健康判断的问题，优先咨询专业人员。
+        </p>
+        <h3>尊重差异，也尊重拒绝</h3>
+        <p>
+          亲密关系中的满意度，很大程度取决于双方是否都觉得被尊重。拒绝、暂停、改变主意都是正常且被允许的。把对方的意愿放在首位，既是对他人的尊重，也是对自己负责的表现。
+        </p>
+      </article>
+      <aside class="aside-card">
+        <h3>阅读与使用提示</h3>
+        <ul>
+          <li>本站内容面向成年人，属于健康科普性质，不涉及露骨描写。</li>
+          <li>文中所有建议均为通用常识，不能替代医生的面诊与个体化评估。</li>
+          <li>如出现持续疼痛、异常出血、分泌物异常等情况，请尽快就医。</li>
+          <li>涉及避孕方式、防护用品选择等问题，建议咨询妇科或泌尿科医生。</li>
+          <li>如遭遇强迫、暴力或胁迫，请及时向信任的人求助并联系当地相关机构。</li>
+        </ul>
+        <p class="disclaimer">
+          理性看待网络信息，遇到不确定的健康问题，专业医生的意见永远比搜索结果更可靠。
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="block alt" id="faq">
+    <div class="wrap">
+      <div class="block-head">
+        <div>
+          <span class="kicker">FAQ</span>
+          <h2>常见疑问解答</h2>
+          <p>以下回答基于公开的健康科普常识，仅作参考，具体情况请咨询专业医生。</p>
+        </div>
+      </div>
+      <div class="faq">
+        <details class="qa" open>
+          <summary>第一次一定会很疼吗？</summary>
+          <div class="answer">
+            <p>不一定。疼痛与紧张程度、身体状态、准备是否充分等多种因素有关。如果出现明显疼痛，应该放慢或暂停，而不是强行忍耐。若疼痛反复出现或持续存在，建议到正规医院就诊，排查是否存在需要处理的健康问题。</p>
+          </div>
+        </details>
+        <details class="qa">
+          <summary>安全措施真的有必要吗？</summary>
+          <div class="answer">
+            <p>有必要。安全套是目前同时具备避孕和预防多种性传播感染作用的常见方式之一。具体选择哪种方式、如何使用，可以结合双方健康状况咨询医生，但不建议因为“影响体验”而省略防护。</p>
+          </div>
+        </details>
+        <details class="qa">
+          <summary>对方不想继续，我该怎么处理？</summary>
+          <div class="answer">
+            <p>立即停止，不要劝说、施压或表现出不满。可以简单询问原因，但对方没有解释的义务。尊重对方的决定，是维持信任关系的基础，也是最基本的边界意识。</p>
+          </div>
+        </details>
+        <details class="qa">
+          <summary>网上说的各种技巧值得尝试吗？</summary>
+          <div class="answer">
+            <p>网络内容质量差异很大，部分说法缺乏可靠依据。判断时可以先看信息来源是否来自正规医疗机构或专业人员。任何方式都应以双方自愿、无疼痛、无不适为前提，出现异常立即停止。</p>
+          </div>
+        </details>
+        <details class="qa">
+          <summary>出现不适应该看哪个科室？</summary>
+          <div class="answer">
+            <p>一般可前往妇科、泌尿外科或皮肤性病科就诊，具体科室因症状而异。如果不确定，可以先到综合医院的导诊台咨询。就诊时如实说明情况，有助于医生做出准确判断。</p>
+          </div>
+        </details>
+        <details class="qa">
+          <summary>这类话题适合和伴侣讨论吗？</summary>
+          <div class="answer">
+            <p>适合，而且是必要的。沟通不需要很正式，可以从表达自己的感受开始。把想法说出来，比猜测对方更容易减少误解，也更有助于双方都感到舒适和被尊重。</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>嘿嘿嘿正确姿势</h4>
+        <p>一个面向成年人的亲密关系健康科普站点，聚焦安全常识、边界意识与沟通方法，帮助读者用理性、负责的态度理解亲密关系。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#basics">基础常识</a></li>
+          <li><a href="#safety">安全与边界</a></li>
+          <li><a href="#steps">准备流程</a></li>
+          <li><a href="#myths">常见误区</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>相关主题</h4>
+        <ul>
+          <li><a href="#guide">健康信息获取</a></li>
+          <li><a href="#faq">常见疑问</a></li>
+          <li><a href="#safety">沟通技巧</a></li>
+          <li><a href="#basics">身体认知</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>重要提示</h4>
+        <ul>
+          <li>本站内容面向 18 周岁以上成年人</li>
+          <li>科普内容不构成医学建议</li>
+          <li>健康问题请咨询专业医生</li>
+          <li>如遇胁迫或暴力请及时求助</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2024 嘿嘿嘿正确姿势 · 健康科普内容站</span>
+      <span>请理性阅读，尊重他人，也保护好自己</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var nav = document.getElementById('mainnav');
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+      }
+    });
+  })();
+</script>
+
+</body>
+  </html>
